@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346250904726",
+    "project_id": "pm-ok-gun-shooter-weapon-runn",
+    "storage_bucket": "pm-ok-gun-shooter-weapon-runn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346250904726:android:7cabe234c3fa37316a2eb7",
+        "android_client_info": {
+          "package_name": "com.hitman.gun.running.sniper.weapon.shooting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-LtMB9gmRPKlBdd-ppxNmOX5rvd6FbPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

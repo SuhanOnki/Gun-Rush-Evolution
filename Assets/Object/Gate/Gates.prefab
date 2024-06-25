@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2407460204057115139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7165869151139493447}
+  - component: {fileID: 2884934316363990461}
+  - component: {fileID: 1750487872459174799}
+  m_Layer: 0
+  m_Name: Gates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7165869151139493447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407460204057115139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.336, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2884934316363990461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407460204057115139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f39054bba43fe4abbd128bd8fa45f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateChanger: []
+  objs: []
+  obstacleType: 0
+  isNotGate: 0
+  prefabIndex: 0
+  isEscalator: 0
+  spawnPosition: []
+  destroy: 0
+--- !u!114 &1750487872459174799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407460204057115139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b39af5f008c480418aef918360309e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRateGate:
+  - {fileID: 6008268802878104118, guid: 1c0ceb71ee77d9548ab5202d45082cb4, type: 3}
+  - {fileID: 6650069451908502963, guid: 78410bc0f1e7a3c4e8f45d6a4abe4460, type: 3}
+  - {fileID: 7268783347482204910, guid: 999de3c8f02da8046b5e3c37a6499eee, type: 3}
+  rangeGate:
+  - {fileID: 8180991474643796895, guid: 3698eb986bc04c94689287a8d1006244, type: 3}
+  - {fileID: 8180991474643796895, guid: 3698eb986bc04c94689287a8d1006244, type: 3}
+  - {fileID: 8180991474643796895, guid: 3698eb986bc04c94689287a8d1006244, type: 3}
+  powerGate:
+  - {fileID: 1505229053246771945, guid: 1d234507f96d8aa408b019828843b17f, type: 3}
+  - {fileID: 614666544405274479, guid: cef1abb6c2f0d7f4c9a520cb2a1224c1, type: 3}
+  - {fileID: 5877188187769357244, guid: dcb582b6a70d72e42b26115101953dbe, type: 3}
